@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family: iranyekan;
+}
+.majic {
+    font-family: yekan bakh bold;
+    font-weight: 800;
+    font-size: 36px;
+}
+.majical {
+    letter-spacing: 10px;
+    font-weight: 300; 
+}
+.carousel {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+.carousel-item {
+	position: relative;
+    border: 13px solid #F9F7F7;
+    transition: 0.6s;
+    border-radius: 13px 0px 13px 0px;
+    
+}
+
+.mm {
+    display: flex;
+    
+}
+.carousel-item:hover {
+     border: 13px solid #E00B0E!important;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
