@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	font-family: iranyekan;
+}
+body {
+    background-color: #000000;
+}
+.btn {
+    padding: 20px 40px;
+    background-color: #688718;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 20px;
+    position: relative;
+    border: none;
+}
+.btn::after {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #688718;
+    border-radius: 20px;
+    z-index:  -1;
+    transition: all 0.6s;
+    
+}
+.btn:hover {
+    color: #FFFFFF;
+}
+.btn:hover::after {
+    transform: scaleX(1.2) scaleY(1.5);
+    opacity: 0;
+    color: #FFFFFF;
+}
+.btn1 {
+    padding: 20px 20px;
+    margin: 50px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 50%;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.3s;
+}
+
+
+
+
+
+
+
+
